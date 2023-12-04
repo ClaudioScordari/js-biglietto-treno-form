@@ -6,8 +6,27 @@
     margin: 0;
 }
 
+/* GENERAL */
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 /* MAIN */
+main form {
+    width: 50%;
+    background-color: lightcoral;
+    margin: 100px auto;
+}
+
+main form>* {
+    margin-bottom: 10px;
+}
+
+main .final-price {
+    border: 2px solid black;
+}
 
 /* FOOTER */
