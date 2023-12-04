@@ -46,6 +46,10 @@ myButton.addEventListener('click', function () {
     }
 
     document.querySelector('.final-price').innerHTML = prezzo_viaggio.toFixed(2);
+
+    userName.value = '';
+    userAge.value = '';
+    userKm.value = '';
 });
 
 // CONTINUAZIONE ESERCIZIO  
